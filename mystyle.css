@@ -3,7 +3,7 @@
 }
 @media screen, print {
     body {
-        padding: 1rem 1 rem;
+        padding: 1rem 1rem;
     }
 }
 * {
@@ -49,7 +49,7 @@ main {
     padding-right: 30px;
     border-style: double;
     display: inline-flex;
-    background: element(#FF0000) no-repeat;
+    background: element(#img) no-repeat;
   }
   .form {
     margin: 10px;
