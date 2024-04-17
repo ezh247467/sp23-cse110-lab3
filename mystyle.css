@@ -49,7 +49,6 @@ main {
     padding-right: 30px;
     border-style: double;
     display: inline-flex;
-    background: element(#img) no-repeat;
   }
   .form {
     margin: 10px;
