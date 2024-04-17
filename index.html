@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="mystyle.css">
     <title>Ethan's First Meeting Brainstorm</title>
     <meta charset="UTF-8">
     <link rel="icon" href="screenshots/Letter_E.png">
   </head>
+  <style>
+    #recording {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-content: stretch;
+    }
+</style>
   <body>
     <main>
         <header>
+            <div class="jacquard-24-regular">
             Meetings Notes on the First Brainstorm
             <br>04/09/2024
+            </div>
             <hr>
         </header>
         <h1>Brainstorm For Sorting Algorithm Website</h1>
         <nav class="Menu">
             <h2>Meeting Info</h2>
             <ul>
-                <li><a href="#Attendance">Attendance List</a></li>
+                <li class="highlight"><a href="#Attendance">Attendance List</a></li>
                 <li><a href="#Agenda">Agenda</a></li>
                 <li><a href="#Notes">Meeting Notes</a></li>
                 <li><a href="#Recording">Meeting Recordings</a></li>
@@ -26,7 +37,7 @@
     <section id="Attendance">
         <h2>Attendance List</h2>
         <ol>
-            <li><span class="leader">Ethan Huang</span></li>
+            <li><span style="color:red">Ethan Huang</span></li>
             <li>Joshua Chen</li>
             <li>Albert Chang</li>
             <li>Justin Chen</li>
@@ -51,15 +62,17 @@
         </ul>
     </section>
     <hr>
-    <span class="miscellaneous"></span>
+    <span class="miscellaneous">
         <details>
             <summary>
                 Only unfinished business was that we have not yet decided what role Malachi will take. One new thing that the team dscovered that needs to be discussed is how
                 we are supposed to show the different types of sorting algorithms. The current most voted algorithm is MergeSort <i><b>(see below)</b></i>. There are no other comments, questions, or concerns brought up by the team at the moment.
             </summary>
         </details>
-
+    </span>
+    <div id="img">
     <img src="screenshots/merge_sort_visual.png" alt="Image of W3 Validator" width="500">
+    </div>
     <br><form action="#" method="get" class="form">
         <label>Enter name:</label> <input type="text" name="name" required>
         <br>
@@ -92,10 +105,12 @@
         <option value="Free edit the algorithms">Free edit the algorithms</option>
         <option value="Show the code of the algorithm">Show the code of the algorithm</option>
     </select>
-    <div id="Recording"></div>
+    <div id="Recording">
     <h3>Video and Audio (for those who can't do video) recording of the meeting</h3>
     <video controls width="250" src="screenshots/video.mp4"></video>
     <audio controls src="screenshots/audio.mp3"></audio>
+    <p>Audio is for those who have too little bandwidth for videos.</p>
+    </div>
     <br>
     <button>Report Inappropriate Content</button>
   </body>
