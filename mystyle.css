@@ -43,6 +43,7 @@ main {
     height: 250px;
   }
   .miscellaneous {
+    background-color: beige;
     text-align: center;
     position: static;
     padding-right: 30px;
@@ -83,4 +84,10 @@ main {
   }
   h2:has(+ ul) {
   margin-bottom: 0px;
+}
+#Agenda {
+    background-color: #FF0000;
+}
+#Notes {
+    background-color: aqua;
 }
